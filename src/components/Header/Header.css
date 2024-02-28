@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+}
+
+.headerTitle {
+  display: flex;
+  align-items: center;
+}
+
+.headerTitle > img {
+  height: fit-content;
+  margin-right: 5px;
+}
+
+.headerTitle > h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.headerNavigation {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.headerNavigation > a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: black;
+}
+
+.headerNavigation > a:hover {
+  color: #292929;
+}
