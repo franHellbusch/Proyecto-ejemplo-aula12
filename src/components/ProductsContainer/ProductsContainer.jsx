@@ -3,11 +3,11 @@ import { useProductsContext } from "../../context/ProductsContext";
 import "./ProductsContainer.css";
 import ProductsList from "../ProductsList/ProductsList";
 
-function ProductsContainer() {
+function ProductsContainer({ limit }) {
   const { products, getProducts } = useProductsContext();
 
   useEffect(() => {
-    getProducts();
+    getProducts(null, limit);
   }, []);
 
   return (

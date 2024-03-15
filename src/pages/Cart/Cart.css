@@ -1,0 +1,24 @@
+.totalTable {
+  background: #f9f1e7;
+  padding: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.totalTable > h3 {
+  font-size: 30px;
+}
+
+.totalTable > p {
+  margin: 20px 0;
+}
+
+.totalTable > a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+}

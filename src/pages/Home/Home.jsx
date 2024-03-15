@@ -3,9 +3,9 @@ import "./Home.css";
 
 function Home() {
   return (
-    <div>
+    <div className='homeContainer'>
       <h1>Home</h1>
-      <ProductsContainer />
+      <ProductsContainer limit={8} />
     </div>
   );
 }
